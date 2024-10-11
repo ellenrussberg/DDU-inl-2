@@ -1,8 +1,68 @@
 body {
     margin: 0%;
+    font-family: "Inter";
+    max-width: 1200px;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(material/Inter.ttf);
+}
+
+.topnav {
+    display: flex;
+    border-bottom: 1px solid rgb(212, 205, 205);
+    max-width: 1100px;
+    font-size: 13px;
+    padding-left: 10px;
+
+}
+
+.bark {
+    height: 10px;
+    width: 60px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.list {
+    padding-top: 6px;
+}
+
+.right {
+    padding-left: 340px;
+    padding-top: 6px;
+   
+}
+
+.box {
+    margin: 10px;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.list:hover {
+    background-color: rgb(224, 224, 224);
+  
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
 }
 
 main {
-    display: grid;
-    grid-template-columns: ;
+    
+    max-width: 1000px;
+    align-content: center;
 }

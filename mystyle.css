@@ -12,18 +12,17 @@ main {
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(10, 50px);
+    grid-template-rows: repeat(20, 50px);
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 650;
     font-size: 53;
    
 }
 @font-face {
     font-family: "Inter";
-    src: url(material/Inter.ttf);
+    src: url(Inter.ttf);
 }
 
 .topnav {
@@ -85,7 +84,6 @@ ul {
     grid-column: 2 / 8;
     grid-row: 2 / 4;
     align-self: start;
-    
 }
 
 .library {
@@ -94,7 +92,6 @@ ul {
     width: 100px;
     height: 100px;
     align-self: center;
-    
 }
 
 .free {
@@ -110,9 +107,39 @@ ul {
 
 .brands {
     grid-column: 2 / 14;
-    grid-row: 7 / 9;
+    grid-row: 7 / 8;
     border-top: 1px solid rgb(206, 201, 201);
     border-bottom: 1px solid rgb(206, 201, 201);
-    padding-top: 15px;
-   
+    align-self: center;
+    padding: 10px; 
+}
+
+.image1 {
+    width: 60px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fetch {
+    grid-column: 2 / 8;
+    grid-row: 9 / 12;
+
+}
+
+h2 {
+    font-weight: 650;
+}
+
+p {
+    font-weight: 320;
+    font-size: 12;
+}
+
+.Barkies {
+    grid-column: 2 / 14;
+    grid-row: 13 / 20;
+    box-shadow: 10px 10px 10px 10px;
+    height: 500px;
+    width: 800px;
 }

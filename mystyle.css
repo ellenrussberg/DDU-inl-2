@@ -12,7 +12,7 @@ main {
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(20, 50px);
+    grid-template-rows: repeat(50, 50px);
 }
 
 h1 {
@@ -87,15 +87,14 @@ ul {
 }
 
 .library {
-    grid-column: 10 / 13;
+    grid-column: 10 / 15;
     grid-row: 2 / 5;
-    width: 100px;
-    height: 100px;
+   padding-top: 60px;
     align-self: center;
 }
 
 .free {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 2px;
     text-align: center;
@@ -103,10 +102,11 @@ ul {
     height: 20px;
     font-size: 13px;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .brands {
-    grid-column: 2 / 14;
+    grid-column: 2 / 15;
     grid-row: 7 / 8;
     border-top: 1px solid rgb(206, 201, 201);
     border-bottom: 1px solid rgb(206, 201, 201);
@@ -131,15 +131,51 @@ h2 {
     font-weight: 650;
 }
 
+h3 {
+    font-weight: 320;
+    font-size: 18px;
+    color: black;
+    margin: 0%;
+}
+
 p {
     font-weight: 320;
     font-size: 12;
+    margin: 0%;    
 }
 
 .Barkies {
-    grid-column: 2 / 14;
-    grid-row: 13 / 20;
-    box-shadow: 10px 10px 10px 10px;
-    height: 500px;
-    width: 800px;
+    grid-column: 2 / 15;
+    grid-row: 13 / 23;
+    box-shadow: 0 4px 20px 10px rgba(147, 145, 145, 0.2);
+    height: 600px;
+    width: 900px;
+}
+
+.quoteone {
+    grid-column: 2 / 15;
+    grid-row: 25 / 28;
+    font-size: 36px;
+    font-weight: 650;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.faceone {
+    grid-column: 7 / 8;
+    grid-row: 28 / 29;
+    height: 50px;
+    
+}
+
+.nameone {
+    grid-column: 8 / 11;
+    grid-row: 28 / 29;
+    color: rgb(135, 134, 134);
+    font-size: 12px;
+    padding-top: 10px;
+    
+   
+    
 }

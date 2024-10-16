@@ -2,13 +2,24 @@ body {
     margin: auto;
     font-family: "Inter";
     max-width: 1200px;
-    align-items: center;
+    
+}
+
+main {
+    margin: auto;
+    max-width: 1000px;
+    align-content: center;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(10, 50px);
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 650;
     font-size: 53;
+   
 }
 @font-face {
     font-family: "Inter";
@@ -20,11 +31,12 @@ h1 {
     border-bottom: 1px solid rgb(212, 205, 205);
     max-width: 1200px;
     font-size: 13px;
-    padding-left: 10px;
-    justify-content: center;
+    margin-left: 10px;
+    
     background-color: white;
     position: fixed;
     top: 0;
+    align-self: center;
     
     
 
@@ -69,9 +81,38 @@ ul {
     gap: 15px;
 }
 
-main {
-    margin: auto;
-    max-width: 1000px;
-    justify-content: center;
-    padding-top: 70px;
+.barkz {
+    grid-column: 2 / 8;
+    grid-row: 2 / 4;
+    align-self: start;
+    
+}
+
+.library {
+    grid-column: 10 / 13;
+    grid-row: 2 / 5;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    
+}
+
+.free {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    text-align: center;
+    width: 110px;
+    height: 20px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.brands {
+    grid-column: 2 / 14;
+    grid-row: 7 / 9;
+    border-top: 1px solid rgb(206, 201, 201);
+    border-bottom: 1px solid rgb(206, 201, 201);
+    padding-top: 15px;
+   
 }

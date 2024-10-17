@@ -2,7 +2,6 @@ body {
     margin: auto;
     font-family: "Inter";
     max-width: 1200px;
-    
 }
 
 main {
@@ -12,13 +11,12 @@ main {
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(50, 50px);
+    grid-template-rows: repeat(100, 50px);
 }
 
 h1 {
     font-weight: 650;
     font-size: 53;
-   
 }
 @font-face {
     font-family: "Inter";
@@ -31,14 +29,10 @@ h1 {
     max-width: 1200px;
     font-size: 13px;
     margin-left: 10px;
-    
     background-color: white;
     position: fixed;
     top: 0;
     align-self: center;
-    
-    
-
 }
 
 .bark {
@@ -55,7 +49,6 @@ h1 {
 .right {
     padding-left: 340px;
     padding-top: 6px;
-   
 }
 
 .box {
@@ -71,7 +64,6 @@ h1 {
 
 .list:hover {
     background-color: rgb(224, 224, 224);
-  
 }
 
 ul {
@@ -94,15 +86,18 @@ ul {
 }
 
 .free {
-    color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-left: 0px;
+    align-content: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
     background-color: black;
-    border-radius: 2px;
-    text-align: center;
-    width: 110px;
-    height: 20px;
     font-size: 13px;
-    box-sizing: border-box;
-    margin-top: 10px;
+    text-align: center;
 }
 
 .brands {
@@ -121,12 +116,6 @@ ul {
     padding-right: 10px;
 }
 
-.fetch {
-    grid-column: 2 / 8;
-    grid-row: 9 / 12;
-
-}
-
 h2 {
     font-weight: 650;
 }
@@ -143,10 +132,14 @@ p {
     font-size: 12;
     margin: 0%;    
 }
+.fetch {
+    grid-column: 2 / 8;
+    grid-row: 9 / 12;
+}
 
 .Barkies {
     grid-column: 2 / 15;
-    grid-row: 13 / 23;
+    grid-row: 13 / 25;
     box-shadow: 0 4px 20px 10px rgba(147, 145, 145, 0.2);
     height: 600px;
     width: 900px;
@@ -166,7 +159,6 @@ p {
     grid-column: 7 / 8;
     grid-row: 28 / 29;
     height: 50px;
-    
 }
 
 .nameone {
@@ -175,7 +167,102 @@ p {
     color: rgb(135, 134, 134);
     font-size: 12px;
     padding-top: 10px;
-    
-   
-    
+}
+
+.kennel {
+    grid-column: 2 / 9;
+    grid-row: 30 / 33;
+}
+
+.world {
+    grid-column: 2 / 15;
+    grid-row: 33 / 45;
+    box-shadow: 0 4px 20px 10px rgba(147, 145, 145, 0.2);
+}
+
+.quotetwo {
+    grid-column: 2 / 15;
+    grid-row: 45 / 48;
+    font-size: 36px;
+    font-weight: 650;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.facetwo {
+    grid-column: 7 / 8;
+    grid-row: 48 / 49;
+    height: 50px;
+}
+
+.nametwo {
+    grid-column: 8 / 12;
+    grid-row: 48 / 49;
+    color: rgb(135, 134, 134);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.docs {
+    grid-column: 2 / 9;
+    grid-row: 50 / 53;
+}
+
+.wiki {
+    grid-column: 2 / 15;
+    grid-row: 53 / 75;
+    box-shadow: 0 4px 20px 10px rgba(147, 145, 145, 0.2);
+    height: 600px;
+}
+
+.quotethree {
+    grid-column: 2 / 15;
+    grid-row: 65 / 68;
+    font-size: 36px;
+    font-weight: 650;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.facethree {
+    grid-column: 7 / 8;
+    grid-row: 68 / 69;
+}
+
+.namethree {
+    grid-column: 8 / 12;
+    grid-row: 68 / 69;
+    color: rgb(135, 134, 134);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.line {
+    grid-column: 2 / 15;
+    grid-row: 70;
+    border-top: solid rgb(232, 226, 226) 1px;
+}
+
+.plan {
+    grid-column: 5 / 12;
+    grid-row: 71 / 74;
+    text-align: center;
+}
+
+.button {
+    grid-column: 8 / 9;
+    grid-row: 74;
+    margin: 10px;
+    align-content: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    background-color: black;
+    font-size: 13px;
+    text-align: center;
 }

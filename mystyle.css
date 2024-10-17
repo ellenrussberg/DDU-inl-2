@@ -266,3 +266,158 @@ p {
     font-size: 13px;
     text-align: center;
 }
+
+.greybox {
+    grid-column: 4 / 13;
+    grid-row: 76 / 86;
+    background-color: rgb(243, 243, 243);
+}
+
+.line1 {
+    grid-column: 4 / 13;
+    grid-row: 76;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.line2 {
+    grid-column: 4 / 13;
+    grid-row: 77;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.line3 {
+    grid-column: 4 / 13;
+    grid-row: 78;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.line4 {
+    grid-column: 4 / 13;
+    grid-row: 79;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.line5 {
+    grid-column: 4 / 13;
+    grid-row: 80;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.line6 {
+    grid-column: 4 / 13;
+    grid-row: 81;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.line7 {
+    grid-column: 4 / 13;
+    grid-row: 82;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.line8 {
+    grid-column: 4 / 13;
+    grid-row: 83;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.line9 {
+    grid-column: 4 / 13;
+    grid-row: 84;
+    border-bottom: 1px solid rgb(221, 216, 216);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Feat {
+    grid-column: 4 / 5;
+    grid-row: 76 / 86;
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 19px;
+    padding-top: 10px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.team {
+    grid-column: 11 / 13;
+    grid-row: 76;
+    padding-top: 20px;
+}
+
+.check {
+    grid-column: 12 / 13;
+    grid-row: 77 / 85;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.linetwo {
+    grid-column: 2 / 15;
+    grid-row: 87;
+    border-top: solid rgb(232, 226, 226) 1px;
+}
+
+.built {
+    grid-column: 5 / 12;
+    grid-row: 88 / 91;
+    text-align: center;
+}
+
+.engineer {
+    grid-column: 3 / 7;
+    grid-row: 90 / 94;
+    text-align: center;
+    border-right: solid rgb(232, 226, 226) 1px;
+    padding-right: 10px;
+}
+
+.product {
+    grid-column: 7 / 10 ;
+    grid-row: 90 / 94;
+    text-align: center;
+    border-right: solid rgb(232, 226, 226) 1px;
+}
+
+.design {
+    grid-column: 10 / 14;
+    grid-row: 90 / 94;
+    text-align: center;
+    padding-left: 10px;
+}
+
+a {
+    color: black;
+}
+
+a. :hover {
+    color: rgb(157, 157, 255);
+}

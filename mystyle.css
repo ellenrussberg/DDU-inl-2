@@ -11,7 +11,7 @@ main {
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(100, 50px);
+    grid-template-rows: repeat(150, 50px);
 }
 
 h1 {
@@ -33,12 +33,14 @@ h1 {
     position: fixed;
     top: 0;
     align-self: center;
+    height: 60px;
+    width: 1200px;
 }
 
 .bark {
     height: 10px;
     width: 60px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 1px;
 }
 
@@ -52,7 +54,8 @@ h1 {
 }
 
 .box {
-    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
     align-content: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,8 +65,13 @@ h1 {
     background-color: black;
 }
 
-.list:hover {
-    background-color: rgb(224, 224, 224);
+
+
+li:hover {
+    background-color: rgb(243, 243, 243);
+    height: 10px;
+    border-radius: 10px;
+    
 }
 
 ul {
@@ -252,10 +260,11 @@ p {
 }
 
 .button {
-    grid-column: 8 / 9;
+    grid-column: 7 / 10;
     grid-row: 74;
     margin: 10px;
     align-content: center;
+    justify-self: center;
     padding-left: 1px;
     padding-right: 1px;
     height: 30px;
@@ -393,31 +402,51 @@ ol {
 }
 
 .engineer {
-    grid-column: 3 / 7;
+    grid-column: 2 / 6;
     grid-row: 90 / 94;
     text-align: center;
     border-right: solid rgb(232, 226, 226) 1px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .product {
-    grid-column: 7 / 10 ;
+    grid-column: 6 / 11 ;
     grid-row: 90 / 94;
     text-align: center;
     border-right: solid rgb(232, 226, 226) 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .design {
-    grid-column: 10 / 14;
+    grid-column: 11 / 15;
     grid-row: 90 / 94;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 a {
     color: black;
+  
 }
 
-a. :hover {
-    color: rgb(157, 157, 255);
+a:hover {
+    color: rgb(53, 53, 139);
+}
+
+.love {
+    grid-column: 5 / 12;
+    grid-row: 94 / 96;
+    text-align: center;
+}
+
+.rated {
+    grid-column: 2 / 9;
+    grid-row: 96 / 99;
+}
+
+.leader {
+    grid-column: 9 / 14;
+    grid-row: 96 / 99;
+    
 }

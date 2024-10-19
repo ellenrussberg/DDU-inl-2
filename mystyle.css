@@ -2,6 +2,7 @@ body {
     margin: auto;
     font-family: "Inter";
     max-width: 1200px;
+    overflow-x: hidden;
 }
 
 main {
@@ -114,14 +115,16 @@ ul {
     border-top: 1px solid rgb(206, 201, 201);
     border-bottom: 1px solid rgb(206, 201, 201);
     align-self: center;
+    justify-content: center;
     padding: 10px; 
 }
 
 .image1 {
-    width: 60px;
+    width: 80px;
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 h2 {
@@ -449,4 +452,46 @@ a:hover {
     grid-column: 9 / 14;
     grid-row: 96 / 99;
     
+}
+
+h5 {
+    font-weight: 550;
+    font-size: 45px;
+    color: gray;
+    margin: 0;
+}
+
+.procent1 {
+    grid-column: 2 / 6;
+    grid-row: 100 / 102;
+    padding-top: 10px;
+    padding-left: 35px;
+
+}
+.procent2 {
+    grid-column: 5 / 9;
+    grid-row: 100 / 102;
+    border-left: 1px solid rgb(231, 227, 227);
+    padding-right: 40px;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 0px;
+    
+}
+
+.procent3 {
+    grid-column: 8 / 12;
+    grid-row: 100 / 102;
+    border-left: 1px solid rgb(231, 227, 227);
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.procent4 {
+    grid-column: 12 / 14;
+    grid-row: 100 / 102;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-left: 1px solid rgb(231, 227, 227);
 }

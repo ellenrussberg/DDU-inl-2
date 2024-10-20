@@ -4,7 +4,6 @@ body {
     max-width: 1200px;
     overflow-x: hidden;
 }
-
 main {
     margin: auto;
     max-width: 1000px;
@@ -12,9 +11,8 @@ main {
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(150, 50px);
+    grid-template-rows: repeat(106, 50px);
 }
-
 h1 {
     font-weight: 650;
     font-size: 53;
@@ -23,7 +21,6 @@ h1 {
     font-family: "Inter";
     src: url(Inter.ttf);
 }
-
 .topnav {
     display: flex;
     border-bottom: 1px solid rgb(212, 205, 205);
@@ -37,23 +34,19 @@ h1 {
     height: 60px;
     width: 1200px;
 }
-
 .bark {
     height: 10px;
     width: 60px;
     padding-top: 30px;
     padding-left: 1px;
 }
-
 .list {
     padding-top: 6px;
 }
-
 .right {
     padding-left: 340px;
     padding-top: 6px;
 }
-
 .box {
     margin-top: 20px;
     margin-left: 20px;
@@ -65,14 +58,19 @@ h1 {
     border-radius: 5px;
     background-color: black;
 }
-
-
-
+.menu {
+    visibility: hidden;
+}
 li:hover {
     background-color: rgb(243, 243, 243);
     height: 10px;
     border-radius: 10px;
-    
+}
+.box:hover {
+    background-color: rgb(51, 49, 49);
+}
+.free:hover {
+    background-color: rgb(51, 49, 49);
 }
 
 ul {
@@ -80,20 +78,17 @@ ul {
     display: flex;
     gap: 15px;
 }
-
 .barkz {
     grid-column: 2 / 8;
     grid-row: 2 / 4;
     align-self: start;
 }
-
 .library {
     grid-column: 10 / 15;
     grid-row: 2 / 5;
    padding-top: 60px;
     align-self: center;
 }
-
 .free {
     margin: 10px;
     margin-left: 0px;
@@ -108,7 +103,6 @@ ul {
     font-size: 13px;
     text-align: center;
 }
-
 .brands {
     grid-column: 2 / 15;
     grid-row: 7 / 8;
@@ -118,26 +112,21 @@ ul {
     justify-content: center;
     padding: 10px; 
 }
-
 .image1 {
     width: 80px;
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
-
 h2 {
     font-weight: 650;
 }
-
 h3 {
     font-weight: 320;
     font-size: 18px;
     color: black;
     margin: 0%;
 }
-
 p {
     font-weight: 320;
     font-size: 12;
@@ -147,7 +136,10 @@ p {
     grid-column: 2 / 8;
     grid-row: 9 / 12;
 }
-
+.size {
+    width: 900px;
+    height: 600px;
+}
 .Barkies {
     grid-column: 2 / 15;
     grid-row: 13 / 25;
@@ -155,7 +147,6 @@ p {
     height: 600px;
     width: 900px;
 }
-
 .quoteone {
     grid-column: 2 / 15;
     grid-row: 25 / 28;
@@ -165,13 +156,11 @@ p {
     text-align: center;
     margin-top: 10px;
 }
-
 .faceone {
     grid-column: 7 / 8;
     grid-row: 28 / 29;
     height: 50px;
 }
-
 .nameone {
     grid-column: 8 / 11;
     grid-row: 28 / 29;
@@ -179,18 +168,15 @@ p {
     font-size: 12px;
     padding-top: 10px;
 }
-
 .kennel {
     grid-column: 2 / 9;
     grid-row: 30 / 33;
 }
-
 .world {
     grid-column: 2 / 15;
     grid-row: 33 / 45;
     box-shadow: 0 4px 20px 10px rgba(147, 145, 145, 0.2);
 }
-
 .quotetwo {
     grid-column: 2 / 15;
     grid-row: 45 / 48;
@@ -200,13 +186,11 @@ p {
     text-align: center;
     margin-top: 10px;
 }
-
 .facetwo {
     grid-column: 7 / 8;
     grid-row: 48 / 49;
     height: 50px;
 }
-
 .nametwo {
     grid-column: 8 / 12;
     grid-row: 48 / 49;
@@ -214,19 +198,16 @@ p {
     font-size: 12px;
     padding-top: 10px;
 }
-
 .docs {
     grid-column: 2 / 9;
     grid-row: 50 / 53;
 }
-
 .wiki {
     grid-column: 2 / 15;
     grid-row: 53 / 75;
     box-shadow: 0 4px 20px 10px rgba(147, 145, 145, 0.2);
     height: 600px;
 }
-
 .quotethree {
     grid-column: 2 / 15;
     grid-row: 65 / 68;
@@ -236,12 +217,10 @@ p {
     text-align: center;
     margin-top: 10px;
 }
-
 .facethree {
     grid-column: 7 / 8;
     grid-row: 68 / 69;
 }
-
 .namethree {
     grid-column: 8 / 12;
     grid-row: 68 / 69;
@@ -249,19 +228,16 @@ p {
     font-size: 12px;
     padding-top: 10px;
 }
-
 .line {
     grid-column: 2 / 15;
     grid-row: 70;
     border-top: solid rgb(232, 226, 226) 1px;
 }
-
 .plan {
     grid-column: 5 / 12;
     grid-row: 71 / 74;
     text-align: center;
 }
-
 .button {
     grid-column: 7 / 10;
     grid-row: 74;
@@ -278,7 +254,6 @@ p {
     font-size: 13px;
     text-align: center;
 }
-
 .greybox {
     grid-column: 4 / 13;
     grid-row: 76 / 86;
@@ -291,54 +266,42 @@ p {
     border-bottom: 1px solid rgb(221, 216, 216);
     margin-right: 20px;
     margin-left: 20px;
-
 }
-
 .line2 {
     grid-column: 4 / 13;
     grid-row: 77;
     border-bottom: 1px solid rgb(221, 216, 216);
     margin-right: 20px;
     margin-left: 20px;
-
 }
-
 .line3 {
     grid-column: 4 / 13;
     grid-row: 78;
     border-bottom: 1px solid rgb(221, 216, 216);
     margin-right: 20px;
     margin-left: 20px;
-
 }
-
 .line4 {
     grid-column: 4 / 13;
     grid-row: 79;
     border-bottom: 1px solid rgb(221, 216, 216);
     margin-right: 20px;
     margin-left: 20px;
-
 }
-
 .line5 {
     grid-column: 4 / 13;
     grid-row: 80;
     border-bottom: 1px solid rgb(221, 216, 216);
     margin-right: 20px;
     margin-left: 20px;
-
 }
-
 .line6 {
     grid-column: 4 / 13;
     grid-row: 81;
     border-bottom: 1px solid rgb(221, 216, 216);
     margin-right: 20px;
     margin-left: 20px;
-
 }
-
 .line7 {
     grid-column: 4 / 13;
     grid-row: 82;
@@ -346,7 +309,6 @@ p {
     margin-right: 20px;
     margin-left: 20px;
 }
-
 .line8 {
     grid-column: 4 / 13;
     grid-row: 83;
@@ -354,7 +316,6 @@ p {
     margin-right: 20px;
     margin-left: 20px;
 }
-
 .line9 {
     grid-column: 4 / 13;
     grid-row: 84;
@@ -362,48 +323,106 @@ p {
     margin-right: 20px;
     margin-left: 20px;
 }
-
 .Feat {
     grid-column: 4 / 5;
     grid-row: 76 / 86;
     color: gray;
 }
-
 li {
     list-style-type: none;
     padding-bottom: 19px;
     padding-top: 10px;
 }
-
 ol {
     padding-left: 20px;
 }
-
 .team {
     grid-column: 11 / 13;
     grid-row: 76;
     padding-top: 20px;
 }
-
 .check {
     grid-column: 12 / 13;
-    grid-row: 77 / 85;
+    grid-row: 77 / 78;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 25px;
+    height: 15px;
+    width: 15px;
 }
-
+.check2 {
+    grid-column: 12 / 13;
+    grid-row: 78 / 79;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check3 {
+    grid-column: 12 / 13;
+    grid-row: 79 / 80;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check4 {
+    grid-column: 12 / 13;
+    grid-row: 80 / 81;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check5 {
+    grid-column: 12 / 13;
+    grid-row: 81 / 82;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check6 {
+    grid-column: 12 / 13;
+    grid-row: 82 / 83;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check7 {
+    grid-column: 12 / 13;
+    grid-row: 83 / 84;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check8 {
+    grid-column: 12 / 13;
+    grid-row: 84 / 85;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.check9 {
+    grid-column: 12 / 13;
+    grid-row: 85 / 86;
+    height: 15px;
+    width: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
 .linetwo {
     grid-column: 2 / 15;
     grid-row: 87;
     border-top: solid rgb(232, 226, 226) 1px;
 }
-
 .built {
     grid-column: 5 / 12;
     grid-row: 88 / 91;
     text-align: center;
 }
-
 .engineer {
     grid-column: 2 / 6;
     grid-row: 90 / 94;
@@ -411,7 +430,6 @@ ol {
     border-right: solid rgb(232, 226, 226) 1px;
     padding-right: 20px;
 }
-
 .product {
     grid-column: 6 / 11 ;
     grid-row: 90 / 94;
@@ -420,53 +438,42 @@ ol {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .design {
     grid-column: 11 / 15;
     grid-row: 90 / 94;
     text-align: center;
     padding-left: 20px;
 }
-
 a {
     color: black;
-  
 }
-
 a:hover {
     color: rgb(53, 53, 139);
 }
-
 .love {
     grid-column: 5 / 12;
     grid-row: 94 / 96;
     text-align: center;
 }
-
 .rated {
     grid-column: 2 / 9;
     grid-row: 96 / 99;
 }
-
 .leader {
     grid-column: 9 / 14;
     grid-row: 96 / 99;
-    
 }
-
 h5 {
     font-weight: 550;
     font-size: 45px;
     color: gray;
     margin: 0;
 }
-
 .procent1 {
     grid-column: 2 / 6;
     grid-row: 100 / 102;
     padding-top: 10px;
     padding-left: 35px;
-
 }
 .procent2 {
     grid-column: 5 / 9;
@@ -476,9 +483,7 @@ h5 {
     padding-top: 10px;
     text-align: center;
     padding-left: 0px;
-    
 }
-
 .procent3 {
     grid-column: 8 / 12;
     grid-row: 100 / 102;
@@ -487,11 +492,230 @@ h5 {
     text-align: center;
     margin-left: 35px;
 }
-
 .procent4 {
     grid-column: 12 / 14;
     grid-row: 100 / 102;
     padding-left: 40px;
     padding-top: 10px;
     border-left: 1px solid rgb(231, 227, 227);
+}
+.try {
+    grid-column: 5 / 12;
+    grid-row: 103 / 105;
+    text-align: center;
+}
+.freebox {
+    grid-column: 7 / 10;
+    grid-row: 105;
+    margin: 10px;
+    align-content: center;
+    justify-self: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    background-color: black;
+    font-size: 13px;
+    text-align: center;
+}
+h6 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.company {
+    grid-column: 5 / 7;
+    grid-row: 1 / 4;
+    font-size: 13px;
+    justify-self: center;
+}
+.download {
+    grid-column: 7 / 10;
+    grid-row: 1 / 4;
+    font-size: 13px;
+    justify-self: center;
+    padding-left: 35px;
+}
+.resources {
+    grid-column: 10 /12;
+    grid-row: 1 / 5;
+    font-size: 13px;
+    justify-self: center;
+    padding-left: 50px;
+}
+.for {
+    grid-column: 13 / 15;
+    grid-row: 1 / 4;
+    font-size: 13px;
+}
+.branded {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    height: 30px;
+    padding-top: 30px;
+}
+.share {
+    height: 20px;
+    grid-row: 2;
+    grid-column: 1;
+    padding-top: 20px;
+}
+.share2 {
+    height: 20px;
+    grid-row: 2;
+    grid-column: 1;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.share3 {
+    height: 20px;
+    grid-row: 2;
+    grid-column: 2;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.share4 {
+    height: 20px;
+    grid-row: 2;
+    grid-column: 2;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.share5 {
+    height: 20px;
+    grid-row: 2;
+    grid-column: 3;
+    padding-top: 20px;
+}
+.bottomleft {
+    grid-column: 1 / 5;
+    grid-row: 4 / 6;
+    font-size: 12px;
+}
+.boxy {
+    grid-column: 1 / 16;
+    grid-row: 1;
+    border-top: solid rgb(232, 226, 226) 1px;  
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(5, 50px);
+    max-width: 1200px;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: visible;
+        max-width: 600px;
+    }
+    .list {
+        visibility: hidden;
+    }
+    .right {
+        visibility: hidden;
+    }
+    .box {
+        visibility: hidden;
+    }
+    .menu {
+        visibility: visible;
+        position: sticky;
+        right: 0;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .library {
+        grid-column: 5 / 11;
+    }
+    .barkz {
+        grid-column: 4 / 12;
+        grid-row: 6 / 8;
+        text-align: center;
+    }
+    .free {
+        grid-column: 6 / 8;
+    }
+    .brands {
+        grid-column: 4 / 13;
+        grid-row: 10 / 14;
+    }
+    .fetch {
+        grid-column: 4 / 12;
+        grid-row: 14 / 17;
+        text-align: center;
+    }
+    .Barkies {
+        height: 300px;
+        width: 400px;
+        grid-column: 4 / 12;
+        grid-row: 18 / 30;
+    }
+    .size {
+        height: 300px;
+        width: 400px;
+    }
+    .faceone {
+        grid-column: 6 / 7;
+        grid-row: 27 / 28;
+    }
+    .quoteone {
+        grid-column: 2 / 13;
+        font-size: 18px;
+    }
+    .nameone {
+        grid-column: 7 / 11;
+        grid-row: 27;
+    }
+    .kennel {
+        grid-column: 4 / 12;
+        grid-row: 29 / 32;
+        text-align: center;
+    }
+    .world {
+        height: 300px;
+        width: 400px;
+        grid-column: 4 / 12;
+    }
+    .quotetwo {
+        grid-column: 2 / 13;
+        grid-row: 40 / 51;
+        font-size: 18px;
+    }
+    .facetwo {
+        grid-column: 6 / 7;
+        grid-row: 42 / 43;
+        padding-top: 5px;
+    }
+    .nametwo {
+        grid-column: 7 / 12;
+        grid-row: 42;
+    }
+    .docs {
+        grid-column: 4 / 12;
+        grid-row: 44 / 47;
+        text-align: center;
+    }
+    .wiki {
+        height: 300px;
+        width: 400px;
+        grid-column: 4 / 12;
+        grid-row: 47 / 53;
+    }
+    .quotethree {
+        grid-column:  4 / 12;
+        grid-row: 54 / 55;
+        font-size: 18px;
+    }
+    .facethree {
+        grid-column: 5 / 6;
+        grid-row: 56 / 57;
+       
+    }
+    .namethree {
+        grid-column: 6 / 12;
+        grid-row: 56;
+        padding-left: 10px;
+    }
 }

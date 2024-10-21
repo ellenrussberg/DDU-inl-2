@@ -90,7 +90,9 @@ ul {
     align-self: center;
 }
 .free {
-    margin: 10px;
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    margin-top: 30px;
     margin-left: 0px;
     align-content: center;
     padding-left: 4px;
@@ -639,9 +641,13 @@ footer {
         grid-column: 4 / 12;
         grid-row: 6 / 8;
         text-align: center;
+    
     }
     .free {
         grid-column: 7 / 9;
+        grid-row: 9 / 10;
+        align-self: center;
+        margin-left: 10px;
     }
     .brands {
         grid-column: 4 / 13;

@@ -607,7 +607,6 @@ footer {
     grid-template-rows: repeat(6, 50px);
     max-width: 1200px;
 }
-
 @media (max-width: 600px) {
     body {
         overflow-x: visible;
@@ -641,7 +640,6 @@ footer {
         grid-column: 4 / 12;
         grid-row: 6 / 8;
         text-align: center;
-    
     }
     .free {
         grid-column: 7 / 9;
@@ -723,7 +721,6 @@ footer {
     .facethree {
         grid-column: 5 / 6;
         grid-row: 56 / 57;
-       
     }
     .namethree {
         grid-column: 6 / 12;
